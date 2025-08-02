@@ -1,73 +1,66 @@
-# Welcome to your Lovable project
+Donation Website
+This project is a modern and responsive donation website built with Vite, TypeScript, and React. It leverages shadcn-ui for beautiful, accessible UI components and Tailwind CSS for efficient and customizable styling.
 
-## Project info
+Features
+Modern Tech Stack: Built with Vite, TypeScript, and React for a fast and efficient development experience.
 
-**URL**: https://lovable.dev/projects/77017aa1-0f4a-4ef5-8451-c53501459278
+Sleek UI: Utilizes shadcn-ui to provide a visually appealing and user-friendly interface.
 
-## How can I edit this code?
+Responsive Design: Implemented with Tailwind CSS to ensure the website looks great on all devices.
 
-There are several ways of editing your application.
+Type-Safe Development: TypeScript ensures robust and error-free code.
 
-**Use Lovable**
+Technologies Used
+Vite: A fast build tool that provides an incredibly quick development server and bundles your code for production.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/77017aa1-0f4a-4ef5-8451-c53501459278) and start prompting.
+TypeScript: A superset of JavaScript that adds static typing, enhancing code quality and maintainability.
 
-Changes made via Lovable will be committed automatically to this repo.
+React: A JavaScript library for building user interfaces.
 
-**Use your preferred IDE**
+shadcn-ui: A collection of reusable components for React applications.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Tailwind CSS: A utility-first CSS framework for rapidly building custom designs.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Getting Started
+To get a copy of the project up and running on your local machine, follow these steps:
 
-Follow these steps:
+Prerequisites
+Make sure you have Node.js and npm (or yarn) installed on your system.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Node.js (LTS version recommended)
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+npm (usually comes with Node.js) or Yarn
 
-# Step 3: Install the necessary dependencies.
-npm i
+Installation
+Clone the repository:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+Bash
+
+git clone https://github.com/derrickgitonga/Donation-website.git
+cd Donation-website
+Install dependencies:
+
+Bash
+
+npm install
+# or
+yarn install
+Running the Development Server
+To start the development server:
+
+Bash
+
 npm run dev
-```
+# or
+yarn dev
+This will typically open the application in your browser at http://localhost:5173.
 
-**Edit a file directly in GitHub**
+Building for Production
+To build the application for production:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Bash
 
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/77017aa1-0f4a-4ef5-8451-c53501459278) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+npm run build
+# or
+yarn build
+This command will compile and optimize your application, placing the production-ready files in the dist directory.
